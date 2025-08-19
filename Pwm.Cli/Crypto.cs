@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 
 namespace Pwm;
 
-public static class Cypto
+public static class Crypto
 {
     //Create KDF parameters
     public static (byte[] salt, int iterations) CreateKdf(int iterations = 300_000)
