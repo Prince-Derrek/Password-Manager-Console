@@ -9,7 +9,7 @@ public static class PasswordGenerator
         const string U = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         const string L = "abcdefghijklmnopqrstuvwxyz";
         const string D = "01234567890";
-        const string S = "!@#$%^&*()_+=-[]{}:;,.<>?";
+        const string S = "!@#$%^&*()_+=-[]{}:;,.?";
 
         var pool = new StringBuilder();
         if (upper) pool.Append(U);
